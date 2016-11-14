@@ -16,6 +16,6 @@ gulp.task('watch', ['build'], () => {
   gulp.watch(source + '/styles/**/*', ['styles'])
   gulp.watch(source + '/scripts/**/*', ['scripts', browserSync.reload])
   gulp.watch('./src/**/*.html', ['html', browserSync.reload])
-  gulp.watch(source + '/fonts/**/*', ['fonts'])
+  // gulp.watch(source + '/fonts/**/*', ['fonts'])
   gulp.watch(source + '/images/**/*', ['images'])
 })

@@ -7,7 +7,7 @@ gulp.task('build', ['clean'], ( cb ) => {
  runSequence('styles',
              'scripts',
              'html',
-             'fonts',
+            //  'fonts',
              'images',
              function() {
                cb()
